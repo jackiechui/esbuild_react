@@ -1,0 +1,11 @@
+{
+  "name": "React Template",
+  "id": "ReactTemplate",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "editorType": ["figjam"],
+  "permissions": ["currentuser"],
+  "containsWidget": true,
+  "widgetApi": "1.0.0",
+  "ui": "dist/ui.html"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "widget-esbuild-react",
+  "version": "1.0.0",
+  "description": "Your Figma widget",
+  "main": "code.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node ./build.js",
+    "build": "NODE_ENV=production node ./build.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@figma/widget-typings": "*",
+    "esbuild": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
